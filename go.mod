@@ -1,4 +1,4 @@
-module github.com/tailscale/caddy-tailscale
+module github.com/jurekl/caddy-tailscale
 
 go 1.24.0
 
