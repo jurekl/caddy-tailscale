@@ -3,13 +3,13 @@ module github.com/jurekl/caddy-tailscale
 go 1.24.3
 
 require (
-	github.com/caddyserver/caddy/v2 v2.10.1-0.20250508175407-44d078b6705c
+	github.com/caddyserver/caddy/v2 v2.10.1-0.20250513211647-a76d005a94ff
 	github.com/caddyserver/certmagic v0.23.0
 	github.com/google/go-cmp v0.7.0
 	github.com/tailscale/caddy-tailscale v0.0.0-20250207163903-69a970c84556
 	github.com/tailscale/tscert v0.0.0-20240608151842-d3f834017e53
 	go.uber.org/zap v1.27.0
-	tailscale.com v1.83.0-pre.0.20250505171403-597d0e8fd595
+	tailscale.com v1.85.0-pre.0.20250522192602-a05924a9e501
 )
 
 require (
