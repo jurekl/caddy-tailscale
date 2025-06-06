@@ -1,15 +1,15 @@
 module github.com/jurekl/caddy-tailscale
 
-go 1.24.3
+go 1.24.4
 
 require (
-	github.com/caddyserver/caddy/v2 v2.10.1-0.20250513211647-a76d005a94ff
+	github.com/caddyserver/caddy/v2 v2.10.1-0.20250606174639-092913a7a568
 	github.com/caddyserver/certmagic v0.23.0
 	github.com/google/go-cmp v0.7.0
 	github.com/tailscale/caddy-tailscale v0.0.0-20250207163903-69a970c84556
 	github.com/tailscale/tscert v0.0.0-20240608151842-d3f834017e53
 	go.uber.org/zap v1.27.0
-	tailscale.com v1.85.0-pre.0.20250522192602-a05924a9e501
+	tailscale.com v1.85.0-pre.0.20250606192023-7b06532ea108
 )
 
 require (
@@ -159,7 +159,7 @@ require (
 	github.com/tailscale/netlink v1.1.1-0.20240822203006-4d49adab4de7 // indirect
 	github.com/tailscale/peercred v0.0.0-20250107143737-35a0c7bd7edc // indirect
 	github.com/tailscale/web-client-prebuilt v0.0.0-20250124233751-d4cd19a26976 // indirect
-	github.com/tailscale/wireguard-go v0.0.0-20250304000100-91a0587fb251 // indirect
+	github.com/tailscale/wireguard-go v0.0.0-20250530210235-65cd6eed7d7f // indirect
 	github.com/u-root/uio v0.0.0-20240224005618-d2acac8f3701 // indirect
 	github.com/urfave/cli v1.22.14 // indirect
 	github.com/vishvananda/netns v0.0.4 // indirect
@@ -167,7 +167,7 @@ require (
 	github.com/yuin/goldmark v1.7.8 // indirect
 	github.com/yuin/goldmark-highlighting/v2 v2.0.0-20230729083705-37449abec8cc // indirect
 	github.com/zeebo/blake3 v0.2.4 // indirect
-	go.etcd.io/bbolt v1.3.9 // indirect
+	go.etcd.io/bbolt v1.3.11 // indirect
 	go.opentelemetry.io/auto/sdk v1.1.0 // indirect
 	go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp v0.58.0 // indirect
 	go.opentelemetry.io/contrib/propagators/autoprop v0.42.0 // indirect

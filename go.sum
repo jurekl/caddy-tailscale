@@ -110,6 +110,8 @@ github.com/caddyserver/caddy/v2 v2.10.1-0.20250508175407-44d078b6705c h1:l8ZfoDL
 github.com/caddyserver/caddy/v2 v2.10.1-0.20250508175407-44d078b6705c/go.mod h1:GI72g2tkbFNyTTg32/KjdfS2TpHvJVgakYo18hRKRrg=
 github.com/caddyserver/caddy/v2 v2.10.1-0.20250513211647-a76d005a94ff h1:ww9Pm6Rg67SIbi57+MeSyVpdR6/CdMlzKFYq6S32/A4=
 github.com/caddyserver/caddy/v2 v2.10.1-0.20250513211647-a76d005a94ff/go.mod h1:GI72g2tkbFNyTTg32/KjdfS2TpHvJVgakYo18hRKRrg=
+github.com/caddyserver/caddy/v2 v2.10.1-0.20250606174639-092913a7a568 h1:vZjFlHQcqOGvaWo4/DnxbOOdMG3G1YboW+i7uqrDhxk=
+github.com/caddyserver/caddy/v2 v2.10.1-0.20250606174639-092913a7a568/go.mod h1:GI72g2tkbFNyTTg32/KjdfS2TpHvJVgakYo18hRKRrg=
 github.com/caddyserver/certmagic v0.23.0 h1:CfpZ/50jMfG4+1J/u2LV6piJq4HOfO6ppOnOf7DkFEU=
 github.com/caddyserver/certmagic v0.23.0/go.mod h1:9mEZIWqqWoI+Gf+4Trh04MOVPD0tGSxtqsxg87hAIH4=
 github.com/caddyserver/zerossl v0.1.3 h1:onS+pxp3M8HnHpN5MMbOMyNjmTheJyWRaZYwn+YTAyA=
@@ -618,6 +620,8 @@ github.com/tailscale/wf v0.0.0-20240214030419-6fbb0a674ee6 h1:l10Gi6w9jxvinoiq15
 github.com/tailscale/wf v0.0.0-20240214030419-6fbb0a674ee6/go.mod h1:ZXRML051h7o4OcI0d3AaILDIad/Xw0IkXaHM17dic1Y=
 github.com/tailscale/wireguard-go v0.0.0-20250304000100-91a0587fb251 h1:h/41LFTrwMxB9Xvvug0kRdQCU5TlV1+pAMQw0ZtDE3U=
 github.com/tailscale/wireguard-go v0.0.0-20250304000100-91a0587fb251/go.mod h1:BOm5fXUBFM+m9woLNBoxI9TaBXXhGNP50LX/TGIvGb4=
+github.com/tailscale/wireguard-go v0.0.0-20250530210235-65cd6eed7d7f h1:vg3PmQdq1BbB2V81iC1VBICQtfwbVGZ/4A/p7QKXTK0=
+github.com/tailscale/wireguard-go v0.0.0-20250530210235-65cd6eed7d7f/go.mod h1:BOm5fXUBFM+m9woLNBoxI9TaBXXhGNP50LX/TGIvGb4=
 github.com/tailscale/xnet v0.0.0-20240729143630-8497ac4dab2e h1:zOGKqN5D5hHhiYUp091JqK7DPCqSARyUfduhGUY8Bek=
 github.com/tailscale/xnet v0.0.0-20240729143630-8497ac4dab2e/go.mod h1:orPd6JZXXRyuDusYilywte7k094d7dycXXU5YnWsrwg=
 github.com/tarm/serial v0.0.0-20180830185346-98f6abe2eb07/go.mod h1:kDXzergiv9cbyO7IOYJZWg1U88JhDg3PB6klq9Hg2pA=
@@ -653,6 +657,8 @@ github.com/zeebo/pcg v1.0.1/go.mod h1:09F0S9iiKrwn9rlI5yjLkmrug154/YRW6KnnXVDM/l
 github.com/zenazn/goji v0.9.0/go.mod h1:7S9M489iMyHBNxwZnk9/EHS098H4/F6TATF2mIxtB1Q=
 go.etcd.io/bbolt v1.3.9 h1:8x7aARPEXiXbHmtUwAIv7eV2fQFHrLLavdiJ3uzJXoI=
 go.etcd.io/bbolt v1.3.9/go.mod h1:zaO32+Ti0PK1ivdPtgMESzuzL2VPoIG1PCQNvOdo/dE=
+go.etcd.io/bbolt v1.3.11 h1:yGEzV1wPz2yVCLsD8ZAiGHhHVlczyC9d1rP43/VCRJ0=
+go.etcd.io/bbolt v1.3.11/go.mod h1:dksAq7YMXoljX0xu6VF5DMZGbhYYoLUalEiSySYAS4I=
 go.opencensus.io v0.18.0/go.mod h1:vKdFvxhtzZ9onBp9VKHK8z/sRpBMnKAsufL7wlDrCOA=
 go.opencensus.io v0.24.0 h1:y73uSU6J157QMP2kn2r30vwW1A2W2WFwSCGnAVxeaD0=
 go.opencensus.io v0.24.0/go.mod h1:vNK8G9p7aAivkbmorf4v+7Hgx+Zs0yY+0fOtgBfjQKo=
@@ -941,3 +947,5 @@ tailscale.com v1.83.0-pre.0.20250505171403-597d0e8fd595 h1:hQVkRAU4QUlC9fzc0evGC
 tailscale.com v1.83.0-pre.0.20250505171403-597d0e8fd595/go.mod h1:6/S63NMAhmncYT/1zIPDJkvCuZwMw+JnUuOfSPNazpo=
 tailscale.com v1.85.0-pre.0.20250522192602-a05924a9e501 h1:tNaDRAvbpAM3AJW1J7UDY0rg01P2uekRS5kbsn+ohd0=
 tailscale.com v1.85.0-pre.0.20250522192602-a05924a9e501/go.mod h1:6/S63NMAhmncYT/1zIPDJkvCuZwMw+JnUuOfSPNazpo=
+tailscale.com v1.85.0-pre.0.20250606192023-7b06532ea108 h1:JvKcdLIu7WwZB2WYnNSuTe9G9Sm09JY6x1DxHVb/MAE=
+tailscale.com v1.85.0-pre.0.20250606192023-7b06532ea108/go.mod h1:gTdfakZDvwxCjWcPACr9GiwD+B69jplAcAt2mbES0Ss=
