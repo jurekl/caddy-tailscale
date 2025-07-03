@@ -9,7 +9,7 @@ require (
 	github.com/tailscale/caddy-tailscale v0.0.0-20250207163903-69a970c84556
 	github.com/tailscale/tscert v0.0.0-20240608151842-d3f834017e53
 	go.uber.org/zap v1.27.0
-	tailscale.com v1.85.0-pre.0.20250702204231-eb03d42fe60a
+	tailscale.com v1.84.3
 )
 
 require (
