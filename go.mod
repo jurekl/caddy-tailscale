@@ -8,7 +8,7 @@ require (
 	github.com/google/go-cmp v0.6.0
 	github.com/tailscale/tscert v0.0.0-20240608151842-d3f834017e53
 	go.uber.org/zap v1.27.0
-	tailscale.com v1.85.0-pre.0.20250703033839-3a4b439c62ba
+	tailscale.com v1.85.0-pre.0.20250704164838-92a114c66d29
 )
 
 require (
