@@ -3,16 +3,19 @@ module github.com/tailscale/caddy-tailscale
 go 1.24.6
 
 require (
-	github.com/caddyserver/caddy/v2 v2.10.1-0.20250805064532-007f4066f6ab
+	github.com/caddyserver/caddy/v2 v2.10.1-0.20250807000428-19ff47a63b9f
 	github.com/caddyserver/certmagic v0.24.0
 	github.com/google/go-cmp v0.7.0
 	github.com/tailscale/tscert v0.0.0-20240608151842-d3f834017e53
 	go.uber.org/zap v1.27.0
-	tailscale.com v1.87.0-pre.0.20250806163525-908f20e0a506
+	tailscale.com v1.87.0-pre.0.20250806215755-4666d4ca2af5
 )
 
 require (
 	cel.dev/expr v0.24.0 // indirect
+	cloud.google.com/go/auth v0.16.2 // indirect
+	cloud.google.com/go/auth/oauth2adapt v0.2.8 // indirect
+	cloud.google.com/go/compute/metadata v0.7.0 // indirect
 	dario.cat/mergo v1.0.1 // indirect
 	filippo.io/edwards25519 v1.1.0 // indirect
 	github.com/AndreasBriese/bbloom v0.0.0-20190825152654-46b345b51c96 // indirect
@@ -43,13 +46,15 @@ require (
 	github.com/aws/smithy-go v1.22.2 // indirect
 	github.com/beorn7/perks v1.0.1 // indirect
 	github.com/caddyserver/zerossl v0.1.3 // indirect
-	github.com/cenkalti/backoff/v4 v4.3.0 // indirect
+	github.com/ccoveille/go-safecast v1.6.1 // indirect
+	github.com/cenkalti/backoff/v5 v5.0.2 // indirect
 	github.com/cespare/xxhash v1.1.0 // indirect
 	github.com/cespare/xxhash/v2 v2.3.0 // indirect
 	github.com/chzyer/readline v1.5.1 // indirect
 	github.com/cloudflare/circl v1.6.1 // indirect
 	github.com/coder/websocket v1.8.12 // indirect
 	github.com/coreos/go-iptables v0.7.1-0.20240112124308-65c67c9f46e6 // indirect
+	github.com/coreos/go-oidc/v3 v3.14.1 // indirect
 	github.com/cpuguy83/go-md2man/v2 v2.0.7 // indirect
 	github.com/dblohm7/wingoes v0.0.0-20240119213807-a09d6be7affa // indirect
 	github.com/dgraph-io/badger v1.6.2 // indirect
@@ -65,10 +70,8 @@ require (
 	github.com/gaissmai/bart v0.18.0 // indirect
 	github.com/go-chi/chi/v5 v5.2.2 // indirect
 	github.com/go-jose/go-jose/v3 v3.0.4 // indirect
+	github.com/go-jose/go-jose/v4 v4.0.5 // indirect
 	github.com/go-json-experiment/json v0.0.0-20250223041408-d3c622f1b874 // indirect
-	github.com/go-kit/kit v0.13.0 // indirect
-	github.com/go-kit/log v0.2.1 // indirect
-	github.com/go-logfmt/logfmt v0.6.0 // indirect
 	github.com/go-logr/logr v1.4.3 // indirect
 	github.com/go-logr/stdr v1.2.2 // indirect
 	github.com/go-ole/go-ole v1.3.0 // indirect
@@ -83,20 +86,19 @@ require (
 	github.com/google/go-tpm v0.9.5 // indirect
 	github.com/google/go-tspi v0.3.0 // indirect
 	github.com/google/nftables v0.2.1-0.20240414091927-5e242ec57806 // indirect
+	github.com/google/s2a-go v0.1.9 // indirect
 	github.com/google/uuid v1.6.0 // indirect
+	github.com/googleapis/enterprise-certificate-proxy v0.3.6 // indirect
+	github.com/googleapis/gax-go/v2 v2.14.2 // indirect
 	github.com/grpc-ecosystem/grpc-gateway/v2 v2.27.1 // indirect
 	github.com/hdevalence/ed25519consensus v0.2.0 // indirect
 	github.com/huandu/xstrings v1.5.0 // indirect
 	github.com/illarion/gonotify/v3 v3.0.2 // indirect
 	github.com/inconshreveable/mousetrap v1.1.0 // indirect
-	github.com/jackc/chunkreader/v2 v2.0.1 // indirect
-	github.com/jackc/pgconn v1.14.3 // indirect
-	github.com/jackc/pgio v1.0.0 // indirect
 	github.com/jackc/pgpassfile v1.0.0 // indirect
-	github.com/jackc/pgproto3/v2 v2.3.3 // indirect
 	github.com/jackc/pgservicefile v0.0.0-20221227161230-091c0ba34f0a // indirect
-	github.com/jackc/pgtype v1.14.0 // indirect
-	github.com/jackc/pgx/v4 v4.18.3 // indirect
+	github.com/jackc/pgx/v5 v5.6.0 // indirect
+	github.com/jackc/puddle/v2 v2.2.1 // indirect
 	github.com/jmespath/go-jmespath v0.4.0 // indirect
 	github.com/jsimonetti/rtnetlink v1.4.0 // indirect
 	github.com/klauspost/compress v1.18.0 // indirect
@@ -134,7 +136,9 @@ require (
 	github.com/sirupsen/logrus v1.9.3 // indirect
 	github.com/slackhq/nebula v1.9.5 // indirect
 	github.com/smallstep/certificates v0.28.4 // indirect
+	github.com/smallstep/cli-utils v0.12.1 // indirect
 	github.com/smallstep/go-attestation v0.4.4-0.20241119153605-2306d5b464ca // indirect
+	github.com/smallstep/linkedca v0.23.0 // indirect
 	github.com/smallstep/nosql v0.7.0 // indirect
 	github.com/smallstep/pkcs7 v0.2.1 // indirect
 	github.com/smallstep/scep v0.0.0-20240926084937-8cf1ca453101 // indirect
@@ -172,9 +176,7 @@ require (
 	go.opentelemetry.io/otel/sdk v1.37.0 // indirect
 	go.opentelemetry.io/otel/trace v1.37.0 // indirect
 	go.opentelemetry.io/proto/otlp v1.7.0 // indirect
-	go.step.sm/cli-utils v0.9.0 // indirect
 	go.step.sm/crypto v0.67.0 // indirect
-	go.step.sm/linkedca v0.20.1 // indirect
 	go.uber.org/automaxprocs v1.6.0 // indirect
 	go.uber.org/mock v0.5.2 // indirect
 	go.uber.org/multierr v1.11.0 // indirect
@@ -184,20 +186,23 @@ require (
 	golang.org/x/crypto v0.40.0 // indirect
 	golang.org/x/crypto/x509roots/fallback v0.0.0-20250305170421-49bf5b80c810 // indirect
 	golang.org/x/exp v0.0.0-20250408133849-7e4ce0ab07d0 // indirect
-	golang.org/x/mod v0.26.0 // indirect
+	golang.org/x/mod v0.27.0 // indirect
 	golang.org/x/net v0.42.0 // indirect
+	golang.org/x/oauth2 v0.30.0 // indirect
 	golang.org/x/sync v0.16.0 // indirect
-	golang.org/x/sys v0.34.0 // indirect
-	golang.org/x/term v0.33.0 // indirect
-	golang.org/x/text v0.27.0 // indirect
+	golang.org/x/sys v0.35.0 // indirect
+	golang.org/x/term v0.34.0 // indirect
+	golang.org/x/text v0.28.0 // indirect
 	golang.org/x/time v0.12.0 // indirect
 	golang.org/x/tools v0.35.0 // indirect
 	golang.zx2c4.com/wintun v0.0.0-20230126152724-0fa3db229ce2 // indirect
 	golang.zx2c4.com/wireguard/windows v0.5.3 // indirect
+	google.golang.org/api v0.240.0 // indirect
 	google.golang.org/genproto/googleapis/api v0.0.0-20250603155806-513f23925822 // indirect
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20250603155806-513f23925822 // indirect
 	google.golang.org/grpc v1.73.0 // indirect
-	google.golang.org/protobuf v1.36.6 // indirect
+	google.golang.org/grpc/cmd/protoc-gen-go-grpc v1.5.1 // indirect
+	google.golang.org/protobuf v1.36.7 // indirect
 	gopkg.in/natefinch/lumberjack.v2 v2.2.1 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 	gvisor.dev/gvisor v0.0.0-20250205023644-9414b50a5633 // indirect
