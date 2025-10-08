@@ -815,5 +815,5 @@ software.sslmate.com/src/go-pkcs12 v0.4.0 h1:H2g08FrTvSFKUj+D309j1DPfk5APnIdAQAB
 software.sslmate.com/src/go-pkcs12 v0.4.0/go.mod h1:Qiz0EyvDRJjjxGyUQa2cCNZn/wMyzrRJ/qcDXOQazLI=
 sourcegraph.com/sourcegraph/go-diff v0.5.0/go.mod h1:kuch7UrkMzY0X+p9CRK03kfuPQ2zzQcaEFbx8wA8rck=
 sourcegraph.com/sqs/pbtypes v0.0.0-20180604144634-d3ebe8f20ae4/go.mod h1:ketZ/q3QxT9HOBeFhu6RdvsftgpsbFHBF5Cas6cDKZ0=
-tailscale.com v1.89.0-pre.0.20251007152017-5c1e26b42fa6 h1:7aD0ZSzfa7gDuylQuy98cQDZKJY6ciuMhshPjz/paWc=
-tailscale.com v1.89.0-pre.0.20251007152017-5c1e26b42fa6/go.mod h1:guEE7f/DUsP+KD5MpqN6dmtQOYoq8JMR7zh2mse3cq8=
+tailscale.com v1.89.0-pre.0.20251007234322-ad6cf2f8f369 h1:R0qM9p0onHXFzkk4TupOUrCsEoe0ruxLQ2nqpgHw/hQ=
+tailscale.com v1.89.0-pre.0.20251007234322-ad6cf2f8f369/go.mod h1:guEE7f/DUsP+KD5MpqN6dmtQOYoq8JMR7zh2mse3cq8=
