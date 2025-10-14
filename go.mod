@@ -3,7 +3,7 @@ module github.com/tailscale/caddy-tailscale
 go 1.25.2
 
 require (
-	github.com/caddyserver/caddy/v2 v2.10.3-0.20251009163649-2ec28bca43e5
+	github.com/caddyserver/caddy/v2 v2.10.3-0.20251014180323-de6b78009b84
 	github.com/caddyserver/certmagic v0.25.0
 	github.com/google/go-cmp v0.7.0
 	github.com/tailscale/tscert v0.0.0-20240608151842-d3f834017e53
