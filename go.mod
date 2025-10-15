@@ -3,12 +3,12 @@ module github.com/tailscale/caddy-tailscale
 go 1.25.2
 
 require (
-	github.com/caddyserver/caddy/v2 v2.10.3-0.20251014180323-de6b78009b84
+	github.com/caddyserver/caddy/v2 v2.10.3-0.20251015211110-10ac7da03782
 	github.com/caddyserver/certmagic v0.25.0
 	github.com/google/go-cmp v0.7.0
 	github.com/tailscale/tscert v0.0.0-20240608151842-d3f834017e53
 	go.uber.org/zap v1.27.0
-	tailscale.com v1.89.0-pre.0.20251010193330-005e264b5456
+	tailscale.com v1.89.0-pre.0.20251015161306-743e5ac6960e
 )
 
 require (
@@ -20,6 +20,7 @@ require (
 	filippo.io/edwards25519 v1.1.0 // indirect
 	github.com/AndreasBriese/bbloom v0.0.0-20190825152654-46b345b51c96 // indirect
 	github.com/BurntSushi/toml v1.5.0 // indirect
+	github.com/DeRuina/timberjack v1.3.8 // indirect
 	github.com/KimMachineGun/automemlimit v0.7.4 // indirect
 	github.com/Masterminds/goutils v1.1.1 // indirect
 	github.com/Masterminds/semver/v3 v3.3.0 // indirect
@@ -180,7 +181,6 @@ require (
 	google.golang.org/grpc v1.75.1 // indirect
 	google.golang.org/grpc/cmd/protoc-gen-go-grpc v1.5.1 // indirect
 	google.golang.org/protobuf v1.36.10 // indirect
-	gopkg.in/natefinch/lumberjack.v2 v2.2.1 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 	gvisor.dev/gvisor v0.0.0-20250205023644-9414b50a5633 // indirect
 	howett.net/plist v1.0.0 // indirect
